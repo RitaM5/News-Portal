@@ -1,0 +1,10 @@
+.header{
+    border-bottom: 1px solid gray;
+    margin-top: 5px;
+}
+.icon{
+    width: 30px;
+}
+.link{
+    text-decoration: none;
+}
