@@ -8,3 +8,12 @@
 .link{
     text-decoration: none;
 }
+#cat-titile{
+    background-color:linen;
+}
+.default{
+    background-color:whitesmoke;
+}
+.arrow{
+    width: 15px;
+}
