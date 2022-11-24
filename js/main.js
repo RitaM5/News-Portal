@@ -96,3 +96,43 @@ const homeClick = () => {
   <span class="visually-hidden">Loading...</span>
   </div>`
 }
+const breakingClick = () =>{
+  window.location.href = '../breaking/breaking.html';
+  const spinner = document.getElementById('spinner');
+  spinner.innerHTML = `
+  <div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+  </div>`;
+}
+const regularClick = () =>{
+  window.location.href = '../regular/regular.html';
+  const spinner = document.getElementById('spinner');
+  spinner.innerHTML = `
+  <div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+  </div>`;
+}
+const internationalClick = () =>{
+  window.location.href = '../international/international.html';
+  const spinner = document.getElementById('spinner');
+  spinner.innerHTML = `
+  <div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+  </div>`;
+}
+const sportsClick = () =>{
+  window.location.href = '../sports/sports.html';
+  const spinner = document.getElementById('spinner');
+  spinner.innerHTML = `
+  <div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+  </div>`;
+}
+const cultureClick = () =>{
+  window.location.href = '../culture/culture.html';
+  const spinner = document.getElementById('spinner');
+  spinner.innerHTML = `
+  <div class="spinner-border text-primary" role="status">
+  <span class="visually-hidden">Loading...</span>
+  </div>`;
+}
