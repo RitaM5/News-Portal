@@ -19,15 +19,15 @@ const displayEntertainment = (information) => {
         div.innerHTML = `  
           <div class="card bg-light Larger shadow border-0 h-100 p-3 mt-4">
            <div class="row">
-           <div class="col-lg-3 col-12">
+           <div class="col-lg-3 col-md-12 col-12">
            <img src="${info.image_url}" class="card-img-top pt-2 mx-auto" alt="" style="width: 200px; height: 250px; border-radius: 10px">
            </div>
-             <div class="card-body col-lg-9 col-12">
+             <div class="card-body col-lg-9 col-md-12 col-12">
              <div class="">
              <h5 class="">${info.title}</h5>
              <p class="card-text card-para" style="font-size:14px">${para}</p>
              </div>
-               <div class="row pt-5">
+               <div class="row pt-3">
                   <div class="col-md-3">
                     <div class="d-flex gx-3 justify-content-center align-items-center">
                     <img src="${info.thumbnail_url}" class="" style="width: 30px; height:30px; border-radius: 50%" alt="">
@@ -44,8 +44,8 @@ const displayEntertainment = (information) => {
                   <div class="col-md-3 pt-2 text-center star">
                    <p>⭐⭐⭐⭐⭐</p>
                   </div>
-                  <div class="col-md-3">
-                   <span onclick="showDetails('${info._id}')" class="ms-5"><img src="https://img.icons8.com/ios/50/null/long-arrow-right.png"/></span>
+                  <div class="col-md-3 pt-2">
+                   <span onclick="showDetails('${info._id}')" class="ms-5"><img style="width:30px" src="https://img.icons8.com/ios/50/null/long-arrow-right.png"/></span>
                   </div>
                </div>
              </div>

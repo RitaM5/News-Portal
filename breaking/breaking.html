@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking-news</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="breaking.css">
+</head>
+
+<body>
+    <div class="container mb-3">
+        <div id="spinner" class="text-center">
+
+        </div>
+        <header class="header">
+            <div class="d-flex justify-content-between header p-4">
+                <div class="left">
+                    <button class="bg-success text-white border-0 rounded p-1">News</button>
+                    <a href="#" class="ms-2 link fw-bold">Portal</a>
+                </div>
+                <div class="right">
+                    <a href="#" class="me-4 link fw-bold">News</a>
+                    <a href="#" class="me-4 link text-dark">Blog</a>
+                    <img class="icon" src="https://img.icons8.com/doodle/48/null/girl.png" />
+                </div>
+            </div>
+        </header>
+        <!--catagory-->
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid p-3">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav mx-auto">
+                            <span class="nav-link mx-3" onclick="homeClick()">Home</span>
+                            <span class="nav-link mx-3" onclick="breakingClick()">Breaking news</span>
+                            <span class="nav-link mx-3" onclick="regularClick()">Regular news</span>
+                            <span class="nav-link mx-3" onclick="">International news</span>
+                            <span class="nav-link mx-3" onclick="">Sports</span>
+                            <span onclick="entertainmentClick()" class="nav-link active text-primary mx-3" tabindex="-1"
+                                aria-current="page mx-3">Entertainment</span>
+                            <span class="nav-link mx-3" onclick="">Culture</span>
+                            <span class="nav-link mx-3" onclick="">Arts</span>
+                            <span class="nav-link mx-3" onclick="">All news</span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section class="pt-2">
+            <div id="cat-titile" class="p-4">
+            </div>
+            <div class="mid-div pt-5 d-flex justify-content-between">
+                <div class="d-flex mid-sec1">
+                    <div>
+                        <p class="fw-bold">Sort By View:</p>
+                    </div>
+                    <div class="">
+                        <span class="default px-4 p-1">Default <img class="arrow"
+                                src="https://img.icons8.com/ios/50/null/chevron-down.png" /></span>
+                    </div>
+                </div>
+                <div class="d-flex mid-sec2">
+                    <button class="me-2 text-white border-0 px-4 bg-primary rounded">Today’s Pick</button>
+                    <button class="border px-3 text-primary text-center rounded">Trending</button>
+                </div>
+            </div>
+        </section>
+        <!--post section-->
+        <section class="pt-5">
+            <div id="post-section">
+
+            </div>
+            <div id="single-sec">
+
+            </div>
+        </section>
+    </div>
+    <footer class="footer p-5">
+        <p class="text-center">Copyright 2021 News Portal
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="breaking.js"></script>
+</body>
+
+</html>
