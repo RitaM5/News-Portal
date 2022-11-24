@@ -33,7 +33,7 @@
     .header{
         display: none;
     }
-    
+
 }
 @media screen and (max-width:768px) {
     .header{
@@ -56,7 +56,6 @@
     .mid-sec1{
         display: flex;
         flex-direction: column;
-        
     }
    .mid-sec2{
     display: flex;
