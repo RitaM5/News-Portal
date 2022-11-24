@@ -45,7 +45,7 @@ const cultureClick = () => {
                    <p>⭐⭐⭐⭐⭐</p>
                   </div>
                   <div class="col-md-3 arrow">
-                   <span onclick="showDetails('${info._id}')" class="ms-5"><img src="https://img.icons8.com/ios/50/null/long-arrow-right.png"/></span>
+                   <span onclick="showDetails('${info._id}')" class="ms-5"><img style="width:30px" src="https://img.icons8.com/ios/50/null/long-arrow-right.png"/></span>
                   </div>
                   </div>   
              </div>
